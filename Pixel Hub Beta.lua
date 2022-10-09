@@ -8,9 +8,19 @@ local Settings = Window:NewTab("Settings")
 local MainSettings = Settings:NewSection("Main")
 local Credits = Window:NewTab("Credits")
 local MainCredits = Credits:NewSection("Main")
+local TeleportUI = Window:NewTab("Teleport")
+local MainTeleportUI = TeleportUI:NewSection("Main")
 -- Toggle UI
 MainSettings:NewKeybind("Left Alt to Toggle UI", "Left Alt to Toggle", Enum.KeyCode.LeftAlt, function()
 	Library:ToggleUI()
+end)
+-- Teleport UI
+TeleportUI:NewTextBox("Type Player Name.", "Teleports to a player.", function(txt)
+	targetUsername = "txt"
+
+players = game:GetService("Players")
+targetPlayer = players:FindFirstChild(targetUsername)
+players.LocalPlayer.Character:MoveTo(targetPlayer.Character.HumanoidRootPart.Position)
 end)
 -- Headless
 MainTrolling:NewButton("Headless Hold (r6)", "Wait where's my head? Oh wait im holding it. (Fling time.)", function()
