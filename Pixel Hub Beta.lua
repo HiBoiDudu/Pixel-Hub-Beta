@@ -8,7 +8,6 @@ local Settings = Window:NewTab("Settings")
 local MainSettings = Settings:NewSection("Main")
 local Credits = Window:NewTab("Credits")
 local MainCredits = Credits:NewSection("Creators")
-local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 -- Headless
 MainTrolling:NewButton("Headless Hold (r6)", "Wait where's my head? Oh wait im holding it. (Fling time.)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/PearlzDev/headlesshold/main/headlessHold.lua",true))()
