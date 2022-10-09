@@ -45,6 +45,3 @@ end)
 Settings:NewKeybind("Right Alt", "Right Alt to Toggle", Enum.KeyCode.RightAlt, function()
 	Library:ToggleUI()
 end)
--- Credits
-MainCredits:NewLabel("Bugg#7915")
-MainCredits:NewLabel("kittkatt#4544")
