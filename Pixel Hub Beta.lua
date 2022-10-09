@@ -48,3 +48,5 @@ end)
 -- Labels
 MainCredits:NewLabel("Bugg#7915")
 MainCredits:NewLabel("kittkatt#4544")
+-- Hey, Why are you looking at this message?
+-- Who said you could look here? >:(
