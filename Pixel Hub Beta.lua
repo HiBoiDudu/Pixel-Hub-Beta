@@ -35,5 +35,5 @@ MainTrolling:NewButton("CHOKEN NUGGET", "Limbs begone!", function()
 end)
 -- Toggle UI
 Settings:NewKeybind("Right Alt", "Right Alt to Toggle", Enum.KeyCode.RightAlt, function()
-	Window:ToggleUI()
+	Library:ToggleUI()
 end)
