@@ -7,9 +7,10 @@ local MainAdmin = Admin:NewSection("Main")
 local Settings = Window:NewTab("Settings")
 local MainSettings = Settings:NewSection("Main")
 local Credits = Window:NewTab("Credits")
-local MainCredits = Credits:NewSection("Creators")
+local MainCredits = Credits:NewSection("Main")
+-- Toggle UI
 MainSettings:NewKeybind("Right Alt", "Right Alt to Toggle", Enum.KeyCode.RightAlt, function()
-	Library:ToggleUI()
+	Window:ToggleUI()
 end)
 -- Headless
 MainTrolling:NewButton("Headless Hold (r6)", "Wait where's my head? Oh wait im holding it. (Fling time.)", function()
