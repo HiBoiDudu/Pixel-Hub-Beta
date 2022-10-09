@@ -3,7 +3,7 @@ local Window = Library.CreateLib("Pixel Hub Beta", "BloodTheme")
 local Trolling = Window:NewTab("Trolling")
 local MainTrolling = Trolling:NewSection("Main")
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
-MainTrolling:NewButton("Headless hold", "Wait where's my head? Oh wait im holding it. (Fling time.)", function()
+MainTrolling:NewButton("Headless Hold (r6)", "Wait where's my head? Oh wait im holding it. (Fling time.)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/PearlzDev/headlesshold/main/headlessHold.lua",true))()
 end)
 MainTrolling:NewButton("CTRL+Click Teleportation", "Look, I'm here. Now I am over there!", function()
