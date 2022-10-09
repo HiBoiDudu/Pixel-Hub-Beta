@@ -24,6 +24,10 @@ end)
 MainTrolling:NewButton("Invisibility", "Press E to go poof!", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/HiBoiDudu/invisible/main/Invisibility.lua",true))()
 end)
+-- Marble Roll
+MainTrolling:NewButton("Marble Roll", "Weeeeeeeeeeeeeee!", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/specowos/scriptsforvideos1/main/marble.lua",true))()
+end)
 -- Bone Breaker
 MainTrolling:NewButton("Bone Breaker", "Uh, I think I broke my spine..", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/HiBoiDudu/boneBreaker/main/Bone%20Breaker.lua",true))()
