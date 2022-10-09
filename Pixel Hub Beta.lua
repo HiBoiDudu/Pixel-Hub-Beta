@@ -33,10 +33,6 @@ MainTrolling:NewButton("CHOKEN NUGGET", "Limbs begone!", function()
     loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Remove%20Arms.txt"))()
     loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Remove%20Legs.txt"))()
 end)
--- Toggle UI
-Settings:NewKeybind("Right Alt", "Right Alt to Toggle", Enum.KeyCode.RightAlt, function()
-	Library:ToggleUI()
-end)
 -- Flight
 MainAdmin:NewButton("Flight", "Up up up!", function()
     loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Fly.txt"))()
@@ -44,4 +40,8 @@ end)
 -- Dex
 MainAdmin:NewButton("Dex explorer", "Allows you to see through the game's models & scripts", function()
     loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt"))()
+end)
+-- Toggle UI
+Settings:NewKeybind("Right Alt", "Right Alt to Toggle", Enum.KeyCode.RightAlt, function()
+	Library:ToggleUI()
 end)
