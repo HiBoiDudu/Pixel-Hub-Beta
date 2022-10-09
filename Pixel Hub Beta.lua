@@ -1,4 +1,4 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua", true))()
 local Window = Library.CreateLib("Pixel Hub Beta", "BloodTheme")
 local Trolling = Window:NewTab("Trolling")
 local MainTrolling = Trolling:NewSection("Main")
@@ -9,6 +9,9 @@ local MainSettings = Settings:NewSection("Main")
 local Credits = Window:NewTab("Credits")
 local MainCredits = Credits:NewSection("Creators")
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+-- Credits
+Creators:NewLabel("Bugg#7915")
+Creators:NewLabel("kittkatt#4544")
 -- Headless
 MainTrolling:NewButton("Headless Hold (r6)", "Wait where's my head? Oh wait im holding it. (Fling time.)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/PearlzDev/headlesshold/main/headlessHold.lua",true))()
@@ -27,8 +30,8 @@ MainAdmin:NewButton("Infinite Yield", "Gives you Infinite Yield admin commands!"
 end)
 --- yes.
 MainTrolling:NewButton("CHOKEN NUGGET", "Limbs begone!", function()
-    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Remove%20Arms.txt%22))()
-    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Remove%20Legs.txt%22))()
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Remove%20Arms.txt"))()
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Remove%20Legs.txt"))()
 end)
 -- Toggle UI
 Settings:NewKeybind("Right Alt", "Right Alt to Toggle", Enum.KeyCode.RightAlt, function()
