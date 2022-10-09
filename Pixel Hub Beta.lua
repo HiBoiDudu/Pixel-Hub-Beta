@@ -45,8 +45,7 @@ end)
 Settings:NewKeybind("Right Alt", "Right Alt to Toggle", Enum.KeyCode.RightAlt, function()
 	Library:ToggleUI()
 end)
--- Labels
-MainCredits:NewLabel("Bugg#7915")
-MainCredits:NewLabel("kittkatt#4544")
--- Hey, Why are you looking at this message?
--- Who said you could look here? >:(
+-- Credits
+MainCredits:NewButton("Discord Server", "https://discord.gg/X6E74YKe", function()
+    print("https://discord.gg/X6E74YKe")
+end)
