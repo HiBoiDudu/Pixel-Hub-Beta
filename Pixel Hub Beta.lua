@@ -24,6 +24,10 @@ end)
 MainTrolling:NewButton("Invisibility", "Press E to go poof!", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/HiBoiDudu/invisible/main/Invisibility.lua",true))()
 end)
+-- Bone Breaker
+MainTrolling:NewButton("Bone Breaker", "Uh, I think I broke my spine..", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HiBoiDudu/boneBreaker/main/Bone%20Breaker.lua",true))()
+end)
 -- Infinite Yield
 MainAdmin:NewButton("Infinite Yield", "Gives you Infinite Yield admin commands!", function()
     loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Infinite%20Yield.txt"))()
@@ -40,6 +44,10 @@ end)
 -- Dex
 MainAdmin:NewButton("Dex Explorer", "Allows you to see through the game's models & scripts", function()
     loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt"))()
+end)
+-- Telekinesis
+MainAdmin:NewButton("Telekinetic Abilities", "Keybinds: Q, E, Y, R, T", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HiBoiDudu/telekinesis/main/Telekinetic%20Ability.lua"))()
 end)
 -- Toggle UI
 Settings:NewKeybind("Right Alt", "Right Alt to Toggle", Enum.KeyCode.RightAlt, function()
