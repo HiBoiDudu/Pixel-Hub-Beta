@@ -32,7 +32,7 @@ MainTrolling:NewButton("CHOKEN NUGGET", "Limbs begone!", function()
 end)
 -- Toggle UI
 Settings:NewKeybind("Right Alt", "Right Alt to Toggle", Enum.KeyCode.RightAlt, function()
-	Library:ToggleUI()
+	Window:ToggleUI()
 end)
 Creators:NewLabel("Bugg#7915")
 Creators:NewLabel("kittkatt#4544")
