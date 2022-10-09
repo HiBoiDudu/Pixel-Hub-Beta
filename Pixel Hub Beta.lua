@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Pixel Hub Beta", "BloodTheme")
+local Window = Library.CreateLib("Pixel Hub Beta", "GrapeTheme")
 local Trolling = Window:NewTab("Trolling")
 local MainTrolling = Trolling:NewSection("Main")
 local Admin = Window:NewTab("Admin")
