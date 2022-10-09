@@ -20,8 +20,13 @@ MainTrolling:NewButton("Invisibility", "Press E to go poof!", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/HiBoiDudu/invisible/main/Invisibility.lua",true))()
 end)
 -- Infinite Yield
-MainAdmin:NewButton("Infitite Yield", "Gives you Infitite Yield admin commands!", function()
-    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Infinite-Yield.txt", true))()
+MainAdmin:NewButton("Infinite Yield", "Gives you Infinite Yield admin commands!", function()
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Infinite%20Yield.txt"))()
+end)
+--- yes.
+MainTrolling:NewButton("CHOKEN NUGGET", "Limbs begone!", function()
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Remove%20Arms.txt%22))()
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Remove%20Legs.txt%22))()
 end)
 -- Toggle UI
 Settings:NewKeybind("Right Alt", "Right Alt to Toggle", Enum.KeyCode.RightAlt, function()
