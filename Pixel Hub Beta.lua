@@ -36,7 +36,7 @@ MainTrolling:NewButton("Bone Breaker", "Uh, I think I broke my spine..", functio
 end)
 -- Infinite Yield
 MainAdmin:NewButton("Infinite Yield", "Gives you Infinite Yield admin commands!", function()
-    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Infinite%20Yield.txt"))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source%27))()
 end)
 --- yes.
 MainTrolling:NewButton("CHOKEN NUGGET", "Limbs begone!", function()
