@@ -9,7 +9,7 @@ local MainSettings = Settings:NewSection("Main")
 local Credits = Window:NewTab("Credits")
 local MainCredits = Credits:NewSection("Main")
 -- Toggle UI
-MainSettings:NewKeybind("Right Alt", "Right Alt to Toggle", Enum.KeyCode.RightAlt, function()
+MainSettings:NewKeybind("Left Alt to Toggle UI", "Left Alt to Toggle", Enum.KeyCode.LeftAlt, function()
 	Library:ToggleUI()
 end)
 -- Headless
@@ -50,10 +50,6 @@ MainAdmin:NewButton("Telekinetic Abilities", "Keybinds: Q, E, Y, R, T", function
     loadstring(game:HttpGet("https://raw.githubusercontent.com/HiBoiDudu/telekinesis/main/Telekinetic%20Ability.lua"))()
 end)
 -- Toggle UI
-Settings:NewKeybind("Right Alt", "Right Alt to Toggle", Enum.KeyCode.RightAlt, function()
+Settings:NewKeybind("Left Alt to Toggle UI", "Left Alt to Toggle", Enum.KeyCode.LeftAlt, function()
 	Library:ToggleUI()
-end)
--- Credits
-MainCredits:NewButton("Discord Server", "https://discord.gg/X6E74YKe", function()
-    print("https://discord.gg/X6E74YKe")
 end)
