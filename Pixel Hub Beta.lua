@@ -14,14 +14,6 @@ local MainTeleportUI = TeleportUI:NewSection("Main")
 MainSettings:NewKeybind("Left Alt to Toggle UI", "Left Alt to Toggle", Enum.KeyCode.LeftAlt, function()
 	Library:ToggleUI()
 end)
--- Teleport UI
-TeleportUI:NewTextBox("Type Player Name.", "Teleports to a player.", function(txt)
-	targetUsername = "txt"
-
-players = game:GetService("Players")
-targetPlayer = players:FindFirstChild(targetUsername)
-players.LocalPlayer.Character:MoveTo(targetPlayer.Character.HumanoidRootPart.Position)
-end)
 -- Headless
 MainTrolling:NewButton("Headless Hold (r6)", "Wait where's my head? Oh wait im holding it. (Fling time.)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/PearlzDev/headlesshold/main/headlessHold.lua",true))()
@@ -62,6 +54,14 @@ end)
 -- Telekinesis
 MainAdmin:NewButton("Telekinetic Abilities", "Keybinds: Q, E, Y, R, T", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/HiBoiDudu/telekinesis/main/Telekinetic%20Ability.lua"))()
+end)
+-- Teleport UI
+TeleportUI:NewTextBox("Type Player Name.", "Teleports to a player.", function(txt)
+	targetUsername = "txt"
+
+players = game:GetService("Players")
+targetPlayer = players:FindFirstChild(targetUsername)
+players.LocalPlayer.Character:MoveTo(targetPlayer.Character.HumanoidRootPart.Position)
 end)
 -- Toggle UI
 Settings:NewKeybind("Left Alt to Toggle UI", "Left Alt to Toggle", Enum.KeyCode.LeftAlt, function()
