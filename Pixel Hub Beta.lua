@@ -9,9 +9,6 @@ local MainSettings = Settings:NewSection("Main")
 local Credits = Window:NewTab("Credits")
 local MainCredits = Credits:NewSection("Creators")
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
--- Credits
-Creators:NewLabel("Bugg#7915")
-Creators:NewLabel("kittkatt#4544")
 -- Headless
 MainTrolling:NewButton("Headless Hold (r6)", "Wait where's my head? Oh wait im holding it. (Fling time.)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/PearlzDev/headlesshold/main/headlessHold.lua",true))()
@@ -37,3 +34,6 @@ end)
 Settings:NewKeybind("Right Alt", "Right Alt to Toggle", Enum.KeyCode.RightAlt, function()
 	Library:ToggleUI()
 end)
+-- Credits
+Creators:NewLabel("Bugg#7915")
+Creators:NewLabel("kittkatt#4544")
