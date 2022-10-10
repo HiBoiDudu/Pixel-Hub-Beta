@@ -34,10 +34,6 @@ end)
 MainTrolling:NewButton("Bone Breaker", "Uh, I think I broke my spine..", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/HiBoiDudu/boneBreaker/main/Bone%20Breaker.lua",true))()
 end)
--- Infinite Yield
-MainAdmin:NewButton("Infinite Yield", "Gives you Infinite Yield admin commands!", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source%27))()
-end)
 --- yes.
 MainTrolling:NewButton("CHOKEN NUGGET", "Limbs begone!", function()
     loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Remove%20Arms.txt"))()
